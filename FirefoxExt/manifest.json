@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Remote URL Capture",
+	"version": "1.0",
+
+	"description": "Captures URLs remotely",
+
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"all_urls",
+		"webRequest",
+		"webRequestBlocking"
+	],
+	"background": {
+	"scripts": ["background-script.js"]
+	}
+}	
